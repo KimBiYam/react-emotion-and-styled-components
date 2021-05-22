@@ -46,7 +46,7 @@ const buttonStyle = css`
 const visibleStyle = (isVisible: boolean) => css`
   font-size: 1.5rem;
   color: violet;
-  ${isVisible && "display: none;"}
+  ${!isVisible && "display: none;"}
 `;
 
 export default EmotionLayout;
