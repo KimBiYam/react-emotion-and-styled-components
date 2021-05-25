@@ -41,6 +41,7 @@ const buttonStyle = css`
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
+  cursor: pointer;
 `;
 
 const visibleStyle = (isVisible: boolean) => css`

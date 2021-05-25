@@ -39,6 +39,7 @@ const Button = styled.button`
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
+  cursor: pointer;
 `;
 
 interface VisibleTextProps {
